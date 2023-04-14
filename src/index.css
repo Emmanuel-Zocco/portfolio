@@ -1,0 +1,167 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+/* App.css */
+.portfolio {
+  background-color: #F8F8F8;
+}
+
+.banner {
+  background-color: #000;
+  color: #fff;
+  width: auto;
+  height: 100%;
+  padding: 30px;
+  position: relative;
+}
+
+.banner-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.banner img {
+  width: 50%;
+  height: auto;
+  margin-bottom: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.banner ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.banner ul li {
+  margin-bottom: 10px;
+}
+
+.banner ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.banner ul li a:hover {
+  text-decoration: underline;
+}
+
+.banner p {
+  font-size: 14px;
+  margin: 20px 0;
+}
+
+h1 {
+  margin-top: 40px;
+  font-size: 36px;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.card {
+  margin-bottom: 30px;
+  border: none;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.react-player {
+  width: 100%;
+  height: 0;
+  padding-top: 56.25%;
+  position: relative;
+}
+
+.react-player iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
